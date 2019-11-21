@@ -3,9 +3,6 @@ Creating gene data visualization with snakemake python workflow.  Below is an ex
 
 ![](Brain-Heart-Blood-Skin_SDHB-MEN1-KCNH2-MSH2-MYL2-BRCA2.png)
 
-Below is the 
-![](dag.png)
-
 ## Modules, Scripts, and Shell File
 get_gene_counts.py:  This module pulls out the counts from the sample data given a specific gene.  It's input is "GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.acmg_59.gct.gz" and it's output are the "X_counts.txt" files where the gene name is where the X is.
 
